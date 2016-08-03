@@ -20,6 +20,9 @@ $ npm install
 $ bower install
 ```
 ```
+$ gulp cssBuild
+```
+```
 $ gulp build
 ```
 ```
