@@ -15,5 +15,8 @@
     "jquery": "^3.1.0",
     "bootstrap": "^3.3.7",
     "moment": "^2.14.1"
-  }
+  },
+  "authors": [
+    "Maldon <maldonmeehan@gmail.com>"
+  ]
 }
