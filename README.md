@@ -1,75 +1,49 @@
-## ATOM CUSTOMIZATION
-* Theme: Seti-UI
-* Packages: linter-jshint
+# EPICODUS STUDENT PROJECT | Modern JS Apps API-Driven App
 
+#### Dino Ipsum, August 3, 2016
 
-## ENVIRONMENT SETUP
-```
-$ brew install node <!-- only needs to be done once -->
-```
-```
-$ npm init <!-- use defaults, make name match project -->
-```
-```
-$ npm install gulp -g <!-- only needs to be done once -->
-```
-```
-$ npm install gulp --save-dev
-```
-```
-$ npm install browserify --save-dev
-```
-```
-$ npm install vinyl-source-stream --save-dev
-```
-```
-$ npm install gulp-concat --save-dev
-```
-```
-$ npm install gulp-uglify --save-dev
-```
-```
-$ npm install gulp-util --save-dev
-```
-```
-$ npm install del --save-dev
-```
-```
-$ npm install jshint --save-dev
-```
-```
-$ npm install gulp-jshint --save-dev
-```
-```
-$ npm install bower -g <!-- only needs to be done once -->
-```
-```
-$ bower init <!-- use defaults, make name match project -->
-```
-```
-$ bower install jquery --save
-```
-```
-$ bower install bootstrap --save
-```
-```
-$ bower install moment --save
-```
-```
-$ npm install bower-files --save-dev
-```
+#### By _**Lauren Posey & Maldon Meehan, Epicodus**_
 
-## DEVELOPEMENT SERVER SETUP LOCALLY
-```
-$ npm install browser-sync --save-dev
-```
+## Description
 
+Dino Ipsum
+* Explore this API to allow your users to generate dinosaur themed Lorem Ipsum. Use it any way you like - you could create a dinosaur themed game along the lines of hangman.
 
-## CLONING A PROJECT
+## Setup/Installation Requirements
 
+* Clone this repository:
+* In the command-line run:
 ```
-$ npm install <!-- saved into node_modules/ -->
+$ npm install
 ```
 ```
-$ bower install <!-- saved into bower_components/ -->
+$ bower install
 ```
+```
+$ gulp build
+```
+```
+$ gulp serve
+```
+* apiKey:
+
+## Known Bugs
+
+* Currently no known bugs
+
+## Support and contact details
+
+If you run into any issues or have questions, ideas, or concerns, please feel free to contact Lauren & Maldon on GitHub.
+
+## Technologies Used
+
+* JavaScript
+* jQuery
+* Bower
+* NPM
+
+### License
+
+*MIT License*
+
+Copyright (c) 2016 **_Epicodus_**
