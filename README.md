@@ -27,6 +27,8 @@ $ gulp serve
 ```
 * apiKey: http://dinoipsum.herokuapp.com/api?key1=value1&key2=value2
 
+* apiKey google maps: AIzaSyCHPCFvFswNitMsdE4wEHA4oJkgGdHjvls
+
 ## Known Bugs
 
 * Currently no known bugs
