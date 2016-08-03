@@ -20,15 +20,12 @@ $ npm install
 $ bower install
 ```
 ```
-$ gulp cssBuild
-```
-```
 $ gulp build
 ```
 ```
 $ gulp serve
 ```
-* apiKey:
+* apiKey: http://dinoipsum.herokuapp.com/api?key1=value1&key2=value2
 
 ## Known Bugs
 

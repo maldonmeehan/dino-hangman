@@ -2,14 +2,20 @@
 <html>
   <head>
     <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/styles.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title></title>
+    <title>Dino Ipsum</title>
   </head>
   <body>
-    <div class="container">
-      <h3>Weather API</h3>
-      <a href="weather.html">Click for the weather...</a>
+    <h2>Please fillout the form bellow to see your Dino Ipsum</h2>
+    <form class="dino_ipsum_form">
+      <input type="text" name="paragraph" id="paragraph" placeholder="Number of Paragraphs">
+      <input type="text" name="word" id="word" placeholder="Words per Paragraphs">
+      <button type="submit" name="submit">Give me Dinos!</button>
+    </form>
+    <div id="dino-container" class="dino-container">
+      <div class="showDino"></div>
     </div>
   </body>
 </html>
