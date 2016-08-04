@@ -1,14 +1,42 @@
-$gray : #d3d3d3;
-$green : #75B975;
+// $gray : #d3d3d3;
+// $green : #75B975;
+//
+// .box {
+//   background: $gray;
+//   border: 3px solid black;
+//   padding: 40px 80px;
+//   .button {
+//     font-weight: bold;
+//     text-align: center;
+//     background: $green;
+//     color: white;
+//   }
+// }
 
-.box {
-  background: $gray;
-  border: 3px solid black;
-  padding: 40px 80px;
-  .button {
-    font-weight: bold;
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+/* Keep it simple - improvement would be to not display characters */
+ .letter {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
     text-align: center;
-    background: $green;
     color: white;
-  }
+}
+.current-word {
+    list-style: none;
+}
+.output {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.correct {
+    background-color: green;
+    transition: all 1s ease;
 }
