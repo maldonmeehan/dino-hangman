@@ -5,18 +5,11 @@
     <link rel="stylesheet" href="build/css/styles.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title>Hangman</title>
+    <title>Dino Hangman</title>
   </head>
   <body>
-    <h1>Hangman Game</h1>
-
-    <form id="hangman">
-        <input type="text" maxlength="1" minlength="1" name="letter" id="letter" placeholder="Guess a letter" />
-        <input id="guess" name="guess" type="submit" value="Guess" />
-        <button id="restart" name="restart" type="button">Restart</button>
+    <form id="hangman_form">
+      <input id="guess" type="text" maxlength="1" placeholder="Type a letter">
     </form>
-    <ul id="letters"></ul>
-    <p id="man"></p>
-    <p id="output" class="output"></p>
   </body>
 </html>

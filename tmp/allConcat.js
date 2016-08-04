@@ -28,6 +28,6 @@ $(document).ready(function() {
     var currentDinoObject = new Dino();
 
     var dinoWord = currentDinoObject.getDino();
-    dinoWord.hide();
+    
   });
 });

@@ -1,5 +1,16 @@
 var Dino = require('./../js/dino.js').dinoModule;
 
+$(document).ready(function() {
+  $('.dino_ipsum_form').submit(function(event) {
+    event.preventDefault();
+    var currentDinoObject = new Dino();
+
+    var dinoWord = currentDinoObject.getDino();
+
+  });
+});
+
+
 // $(document).ready(function() {
 //   $('#play').click(function(event) {
 //     event.preventDefault();
@@ -19,15 +30,3 @@ var Dino = require('./../js/dino.js').dinoModule;
 //     currentDinoObject.getDino();
 //   });
 // });
-
-
-
-$(document).ready(function() {
-  $('.dino_ipsum_form').submit(function(event) {
-    event.preventDefault();
-    var currentDinoObject = new Dino();
-
-    var dinoWord = currentDinoObject.getDino();
-    dinoWord.hide();
-  });
-});
